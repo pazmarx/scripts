@@ -9,10 +9,6 @@
 # import the necessary packages
 import boto3
 
-# set the bucket name along with:
-# (1) the path of the folder in the bucket
-# (2) the label to filter
-# (3) the confidence level for the rekognition
 BUCKET_NAME = 'stude'
 FOLDER_PATH = 'Paz_images/dog/'
 LABEL_TO_FILTER = 'Dog'
